@@ -24,6 +24,8 @@ the `-m` option. Use keycode 0 to disable the mute function.
 Installation
 ------------
 
+[![Packaging status](https://repology.org/badge/tiny-repos/bucklespring.svg)](https://repology.org/project/bucklespring/versions)
+
 ### Debian
 
 Bucklespring is available in the latest Debian and Ubuntu dev-releases, so you can
@@ -31,6 +33,29 @@ install with
 
 ```
 $ sudo apt-get install bucklespring
+```
+
+### VoidLinux
+
+Bucklespring is available in the VoidLinux repositories, so you can install with
+
+```
+$ sudo xbps-install -S bucklespring
+```
+
+### FreeBSD
+
+Bucklespring can be installed via package:
+
+```
+$ pkg install bucklespring
+```
+
+or built via port:
+
+```
+$ cd /usr/ports/games/bucklespring
+$ make install clean
 ```
 
 ### Linux, building from source
